@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import 'package:task_2/task_3.dart';
+
+
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: screen2(),
+      home: screen4(),
     );
   }
 }
@@ -66,7 +71,7 @@ class screen2 extends StatelessWidget {
 
                     child: Icon(
                     Icons.notifications_none_rounded,
-                      size: 40,
+                      size: 30,
                     ),
                   ),
                   const Text('Follow'),
@@ -87,7 +92,7 @@ class screen2 extends StatelessWidget {
 
                     child: Icon(
                       Icons.messenger_outline_rounded,
-                      size: 40,
+                      size: 30,
                     ),
                   ),
                   const Text('Message'),
@@ -108,7 +113,7 @@ class screen2 extends StatelessWidget {
 
                     child: Icon(
                       Icons.favorite_border,
-                      size: 40,
+                      size: 30,
                     ),
                   ),
                   const Text('Favorite'),
